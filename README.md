@@ -50,13 +50,11 @@ Note: The working directory for this course will be `/home/coder`.
 In Linux, a **shell** is a command-line interpreter that acts as an interface between the user and the operating system's kernel. It allows users to interact with the operating system by executing commands, running programs, and managing system processes. Essentially the **shell** is a programming environment on the command line that takes your typed text-based commands and translates them into instructions for the kernel to execute. It is always useful to know what **shell** environment you are using on as some commands are specific to a particular **shell**, and may behave differently in other **shell**.
 
 The `echo` command is used to print whatever follows it to the screen. `$` means content of the **shell**. The command `echo $SHELL` will print out the `SHELL` environment variable. In this case, we are using `/bin/bash` as shown in Figure 1.
-
-Figure 1 Usage of commands - echo and pwd
+</br></br>
+Figure 1 Using `echo` and `pwd`commands
 ![1](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%201%20Usage%20of%20commands%20-%20echo%20and%20pwd.png)
-
-![Figure 1](https://github.com/chiahsing-loh/Secure-Network-Devices/blob/main/images/figure%201.png)
-</br></br></br>
-
+</br></br>
+In Figure 1, the `pwd` command will display the current directory we are in. Directories are similar to folders in Windows File Explorer. In this case, the home directory is `/home/coder`.
 
 
 
