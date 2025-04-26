@@ -45,13 +45,11 @@ Note: The working directory for this course will be `/home/coder`.
 
 </br>
 
-<ins>**Task 1. Display the home directory from a terminal.**</ins>
+<ins>**Task 1: Display the home directory from a terminal**</ins>
 
-A `shell` itself is a programming environment on the command line. 
-It is always useful to know what `SHELL` environment you are using on as some commands are class specific to a  particular `SHELL`, and may behave differently in other `SHELL`.
+In Linux, a **shell** is a command-line interpreter that acts as an interface between the user and the operating system's kernel. It allows users to interact with the operating system by executing commands, running programs, and managing system processes. Essentially the **shell** is a programming environment on the command line that takes your typed text-based commands and translates them into instructions for the kernel to execute. It is always useful to know what **shell** environment you are using on as some commands are specific to a particular **shell**, and may behave differently in other **shell**.
 
-The `echo` command is used to print whatever follows it to the screen.
-`$` means content of the `shell`. The command `echo $SHELL` will print out the `SHELL` environment variable. In this case, we are using `/bin/bash` as shown in Figure 1.
+The `echo` command is used to print whatever follows it to the screen. `$` means content of the **shell**. The command `echo $SHELL` will print out the `SHELL` environment variable. In this case, we are using `/bin/bash` as shown in Figure 1.
 
 
 
