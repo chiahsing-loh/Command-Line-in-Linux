@@ -34,12 +34,16 @@ The "Command Line in Linux" project is designed to equip learners with essential
 
 ### <ins>Walkthrough</ins>
 
-This project will consist of 5 tasks, which are as follows:
-1. Create a network topology using Cisco Packet Tracer
-2. Apply authentication on the switches
-3. Apply authentication on the router
-4. Enable PCs from different VLANs to communicate with each other
-5. Configure DHCP on the router and secure the ports of the switch from unauthorized access
+The project consists of five structured tasks, each focusing on essential Linux commands:
+1. Display the home directory from a terminal.
+2. List files and directories using `ls`.
+3. Use the `cd` command to change directories.
+4. Use `touch`, `cp`, `mkdir`, and `rm` to create and remove files and directories.
+5. Search for files using `find`, search for patterns using `grep`.
+
+Note: The working directory for this course will be `/home/coder`.
+
+   
 </div>
 </br>
 
