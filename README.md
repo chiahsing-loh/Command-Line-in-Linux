@@ -52,6 +52,8 @@ In Linux, a **shell** is a command-line interpreter that acts as an interface be
 The `echo` command is used to print whatever follows it to the screen. `$` means content of the **shell**. The command `echo $SHELL` will print out the `SHELL` environment variable. In this case, we are using `/bin/bash` as shown in Figure 1.
 
 Figure 1 Usage of commands - echo and pwd
+![1](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%201%20Usage%20of%20commands%20-%20echo%20and%20pwd.png)
+
 ![Figure 1](https://github.com/chiahsing-loh/Secure-Network-Devices/blob/main/images/figure%201.png)
 </br></br></br>
 
