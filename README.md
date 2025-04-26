@@ -24,9 +24,12 @@ The "Command Line in Linux" project is designed to equip learners with essential
 </br></br>
 ### <ins>Tools</ins>
 
-- Cisco Packet Tracer (Network simulation software).
-- Router and Switch configurations (CLI-based security settings)
-- Networking protocols (Authentication, DHCP, and security best practices). 
+1. Linux Terminal: The command-line interface for executing tasks.
+2. Environment Variables: SHELL and HOME variables for system interaction.
+3. CLI Utilities: Commands like pwd, ls -l, cd, mkdir, rm, touch, cp, find, and grep.
+4. Linux File System: A hierarchical structure utilized for file and directory organization.
+5. Permission Control Mechanisms: Tools like chmod to modify access settings.
+ 
 </br></br>
 
 ### <ins>Walkthrough</ins>
