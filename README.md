@@ -8,16 +8,16 @@ The "Command Line in Linux" project is designed to equip learners with essential
 </br></br>
 ### <ins>Skills Gained</ins>
 
-1. System Interaction:
+1. **System Interaction:**
     - Opening a terminal and displaying environment variables like SHELL and HOME.
     - Using commands like pwd to locate the current directory.
-2. File & Directory Management:
+2. **File & Directory Management:**
    - Listing files and directories with ls, including hidden files.
    - Navigating directories using cd with absolute paths, relative paths, or no arguments.
    - Creating, copying, and deleting files and directories using commands like touch, cp, mkdir, rm, rmdir, and rm -rf.
-3. Permission Management:
+3. **Permission Management:**
      - Adjusting directory permissions using chmod to control access (e.g., user, group, others).
-4. Search & Analysis:
+4. **Search & Analysis:**
    - Searching for patterns in files using grep, including recursive operations.
    - Locating files using find, with error message redirection for seamless operation.
 
