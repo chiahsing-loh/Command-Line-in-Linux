@@ -43,8 +43,6 @@ The project consists of five structured tasks, each focusing on essential Linux 
 
 Note: The working directory for this course will be `/home/coder`.
 
-   
-</div>
 </br>
 
 
