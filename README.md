@@ -109,7 +109,7 @@ Figure 7 Using `cd` command with home environment variable
 ![7](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%207%20Using%20cd%20command%20with%20home%20environment%20variable.png)
 </br></br>
 
-In Figure 8, we want to navigate back to the Desktop directory. From here, we will use the `cd ..` command to get back to the home directory. The `cd ..` command relies on its <ins>relative file path</ins> to go up one level higher in the directory structure, which happens to be the home directory.
+In Figure 8, we want to navigate back to the Desktop directory. From here, we will use the `cd ..` command to get back to the home directory. The `cd ..` command relies on its <ins>relative path</ins> to go up one level higher in the directory structure, which happens to be the home directory.
 
 Do note that regardless of which working directory you are at, the `..` always represents going back one directory higher <ins>relative</ins> to your current directory. 
 
