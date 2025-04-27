@@ -120,5 +120,11 @@ Figure 8 Using `cd ..`  and `cd .` commands
 ![8](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%208%20Using%20cd%20..%20%20and%20cd%20.%20command.png)
 </br></br>
 
+To  quickly return to the home directory from wherever the user is currently at, we can use the `cd` command alone, with no arguments,  as shown in Figure 9 below.
+
+This `cd` command shares the same functionality as the command `cd $HOME`.
+
+Figure 9 Using `cd` command with no arguments 
+![9](https://github.com/user-attachments/assets/e8629e3d-1f40-4079-8d06-cda0812a3c02)
 
 
