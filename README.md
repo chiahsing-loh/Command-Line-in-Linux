@@ -234,7 +234,13 @@ Figure 15 Using `grep` command to search text in a file
 ![15](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2015%20Using%20grep%20command%20to%20search%20text%20in%20a%20file.png)
 </br></br>
 
+The `grep` command can also be used to search for a pattern across all directories and any files within those directories. For instance, we can use the command `grep -r boisterous *`  to locate the word 'boisterous' from our home directory. The search only returns 1 such occurrence across all directories and files as shown in Figure 16.
 
+The option `-r` (or `--recursive`) tells `grep` to search _recursively_ through directories. It will look inside all subdirectories and their files.
+
+The  wildcard `*` means "all files and directories in the current working directory." It instructs `grep` to search through every file and folder available.
+
+Figure 16 Using `grep` to search for a pattern across all directories and files
 
 
 
