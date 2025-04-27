@@ -208,7 +208,16 @@ Figure 12 Using `cp` command
 Next, in Figure 13, we will navigate back to the home directory and use the command `rm temp/*` to remove all the contents residing in tmp directory. Performing a command `ls -l tmp` will confirm that the tmp directory is empty. Finally, to remove the empty tmp directory, the command `rmdir tmp` is used.
 
 Figure 13 Using `rm` and `rmdir` commands
+![13](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2013%20Using%20rm%20and%20rmdir%20commands.png)
+</br></br>
 
+In Figure 14, the command `rmdir tmp2` failed to remove the tmp2 directory as it's not empty. To be able to remove a directory along with its contents, we will need to use the command `rm -rf`. 
+
+The `-r` option, aka **recursive deletion**, allows `rm` to delete directories and their contents recursively.
+
+The `-f` option, aka **force deletion**, forces the removal of files without prompting for confirmation, even if the files are write-protected.
+
+Figure 14 Using `rm -rf` command
 
 
 
