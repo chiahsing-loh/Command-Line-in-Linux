@@ -247,9 +247,13 @@ Figure 16 Using `grep` to search for a pattern across all directories and files
 How can we find a downloaded file that we can't remember where we had placed it?  
 The `find` command will be helpful in locating the file as it starts in the given directory and recursively searches for the file name through the directories. In Figure 17, we use the command `find . -name Vocabulary_list.csv` to find where we have stored the file. In this case, the command displays the pathway to find it at `/home/Desktop/`.                                                                                                                                                                                                                                                                        
 
-
-
 Figure 17 Using the `find` command
+![17](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2017%20Using%20the%20find%20command.png)
+</br></br>
+
+Now, let's search for the `cat` command in the root directory using the command `find / -name cat`. However, this command generated many lines of permission denied errors, making it difficult to find the `cat` command that we wanted as display in Figure 18.
+
+Figure 18 Using `find` command to search for `cat` command at root directory
 
 
 
