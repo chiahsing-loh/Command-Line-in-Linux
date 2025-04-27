@@ -95,9 +95,9 @@ Figure 5 Using `ls -al` command to display hidden files
 
 We use the `cd` command to traverse around the Linux directory structure.
 
-In Figure 6, from our home directory at `/home/coder`, we will use the command `cd Desktop` to get to the Desktop directory. We will use the command `pwd` to determine the exact absolute path of our location in the directory structure, which shows we are at `/home/coder/Desktop`. 
+In Figure 6, from our home directory at `/home/coder`, we will use the command `cd Desktop` to get to the Desktop directory. We will use the command `pwd` to determine the exact <ins>absolute path</ins> of our location in the directory structure, which shows we are at `/home/coder/Desktop`. 
 
-To get to the example directory, which resides within the Desktop directory, we will use the command `cd example` from our existing location at `/home/coder/Desktop`. Using the command `pwd`, which displays `/home/coder/Desktop/example` as its absolute path, we can confirm that we have navigated to the example directory.
+To get to the example directory, which resides within the Desktop directory, we will use the command `cd example` from our existing location at `/home/coder/Desktop`. Using the command `pwd`, which displays `/home/coder/Desktop/example` as its <ins>absolute path</ins>, we can confirm that we have navigated to the example directory.
 
 Figure 6 Using `cd` command to change directory
 ![6](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%206%20Using%20cd%20command%20to%20change%20directory.png)
@@ -117,5 +117,8 @@ In contrast, a single `.` represents the current working directory. As demonstra
 
 
 Figure 8 Using `cd ..`  and `cd .` commands
+![8](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%208%20Using%20cd%20..%20%20and%20cd%20.%20command.png)
+</br></br>
+
 
 
