@@ -141,6 +141,7 @@ These permissions are given to 3 types of owners:
 |other | all other users on the system|
 
 A 10-character string begins each entry and indicates how the permissions on the file are set. For instance, a directory with full permissions for all owner types would be `drwxrwxrwx`:  
+
 The 1st character indicates the file type. The `d` indicates it’s a **directory**. When this character is a hyphen `-`, it's a regular file.  
 
 The 2nd-4th characters indicate the read `r`, write `w`, and execute `x` permissions for the **user**. When one of these characters is a hyphen `-` instead, it indicates that this permission is not granted to the user.  
@@ -153,6 +154,11 @@ Permissions can be set using bit positions that determine the read `r`, write `w
 For example:
 
 Bit position of 111 = 7 = `rwx` while 101 = 7 = `r-x`
+
+
+
+
+
 
 The `mkdir` command allows us to create a new directory. In Figure 10, the command `mkdir tmp` will create a new directory named **tmp**.
 
