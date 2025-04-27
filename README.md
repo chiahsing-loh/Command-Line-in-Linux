@@ -218,6 +218,19 @@ The `-r` option, aka **recursive deletion**, allows `rm` to delete directories a
 The `-f` option, aka **force deletion**, forces the removal of files without prompting for confirmation, even if the files are write-protected.
 
 Figure 14 Using `rm -rf` command
+![14](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2014%20Using%20rm%20-rf%20command.png)
+</br></br></br>
+
+#### <ins>Task 5: Search for files using `find`, search for patterns using `grep`</ins>
+
+The `grep` command is a text filter that will search input and return lines which contain a match to a given pattern. It is a very useful command to deploy for pattern searching.
+
+In Figure 15, to search for the text 'man' in a file, we use the command `grep man Vocabulary_list.csv` to perform the search. As display in Figure 15, all words consisting of the text 'man' are being filtered out and displayed. 
+
+Conversely, to search for text that does not have the character 'a', we are going to use the command 
+`grep -v a Vocabulary_list.csv`, the option `-v` will select non-matching patterns, in this case anything that does not contain the character 'a'. The outcome is shown in Figure 15.
+
+Figure 15 Using `grep` command to search text in a file
 
 
 
