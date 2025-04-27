@@ -106,5 +106,16 @@ Figure 6 Using `cd` command to change directory
 To return to our home directory from the current location of `/home/coder/Desktop/example`, we can use the `cd` command with the home environment variable `$HOME` as shown in Figure 7 below.
 
 Figure 7 Using `cd` command with home environment variable
+![7](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%207%20Using%20cd%20command%20with%20home%20environment%20variable.png)
+</br></br>
+
+In Figure 8, we want to navigate back to the Desktop directory. From here, we will use the `cd ..` command to get back to the home directory. The `cd ..` command relies on its <ins>relative file path</ins> to go up one level higher in the directory structure, which happens to be the home directory.
+
+Do note that regardless of which working directory you are at, the `..` always represents going back one directory higher <ins>relative</ins> to your current directory. 
+
+In contrast, a single `.` represents the current working directory. As demonstrated in Figure 8, using a `cd .` command will not change our current working directory. 
+
+
+Figure 8 Using `cd ..`  and `cd .` commands
 
 
