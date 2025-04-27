@@ -126,8 +126,44 @@ This `cd` command shares the same functionality as the command `cd $HOME`.
 
 Figure 9 Using `cd` command with no arguments 
 ![9](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%209%20Using%20cd%20command%20with%20no%20arguments.png)
-</br></br>
+</br></br></br>
 
+#### <ins>Task 4: Use `touch`, `copy`, `mkdir`, and `rm` to create and remove files and directories</ins>
 
+In Linux, permissions are represented with a 10-character string (`drwxrwxrwx`). 
+These permissions are given to 3 types of owners:
+
+|user| the owner of the file|
+|group| a larger group that the owner is a part of| |other| all other users on the system|
+
+A 10-character string begins each entry and indicates how the permissions on the file are set. For instance, a directory with full permissions for all owner types would be drwxrwxrwx:
+- The 1st character indicates the file type. The `d` indicates it’s a directory. When this character is a hyphen `-`, it's a regular file.
+- The 2nd-4th characters indicate the read `r`, write `w`, and execute `x` permissions for the user. When one of these characters is a hyphen `-` instead, it indicates that this permission is not granted to the user.
+- The 5th-7th characters indicate the read `r`, write `w`, and execute `x` permissions for the group. When one of these characters is a hyphen `-` instead, it indicates that this permission is not granted for the group.
+- The 8th-10th characters indicate the read `r`, write `w`, and execute `x` permissions for the owner type of others. This owner type consists of all other users on the system apart from the user and the group. When one of these characters is a hyphen `-` instead, that indicates that this permission is not granted for others.
+
+Permissions can be set using bit positions that determine the read `r`, write `w` and execute `x` access on a file or directory. 
+For example:
+
+Bit position of 111 = 7 = `rwx` while 101 = 7 = `r-x`
+
+The `mkdir` command allows us to create a new directory. In Figure 10, the command `mkdir tmp` will create a new directory named **tmp**.
+
+The command `ls -ld tmp` will display details of tmp directory's file type, permissions, etc. In this case, it is `drwxrwxr-x` showing that tmp possesses the following attributes:
+
+`d` = directory
+`rwx` = permissions to read, write, and execute for the user
+`rwx` = permissions to read, write, and execute for the group
+`r-x` = permissions to read and execute but not write for others
+
+The **principle of least privilege** is the concept of granting only the minimal access and authorization required to complete a task or function. In other words, users should not have privileges that are beyond what is necessary. Not adhering to this principle of least privilege can create security risks.
+
+The `chmod`  command facilitates the management of this authorization. The `chmod` command changes the permissions on files and directories.
+
+In Figure 10, the command `chmod 700 tmp` will change the permissions to disable read, write, and execute access for group and others, while retaining full permissions access for the user.
+
+The next command `chmod 755 tmp` will change the existing permissions to enable read and execute access for group and others, and retain full permissions access for the user. As shown in Figure 10, the permission for the directory tmp is now `drwxr-xr-x`.
+
+Figure 10 Usage of `mkdir` and `chmod` commands and permission assignment
 
 
