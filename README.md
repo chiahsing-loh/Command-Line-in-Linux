@@ -231,6 +231,9 @@ Conversely, to search for text that does not have the character 'a', we are goin
 `grep -v a Vocabulary_list.csv`, the option `-v` will select non-matching patterns, in this case anything that does not contain the character 'a'. The outcome is shown in Figure 15.
 
 Figure 15 Using `grep` command to search text in a file
+![15](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2015%20Using%20grep%20command%20to%20search%20text%20in%20a%20file.png)
+</br></br>
+
 
 
 
