@@ -134,7 +134,7 @@ In Linux, permissions are represented with a 10-character string (`drwxrwxrwx`).
 These permissions are given to 3 types of owners:
 
 
-|Ownership Type | Description |
+|Ownership | Description |
 |:-----|:-----------|
 |user  | owner of the file |
 |group | a larger group that the owner is a part of| 
@@ -150,7 +150,7 @@ The 5th-7th characters indicate the read `r`, write `w`, and execute `x` permiss
 
 The 8th-10th characters indicate the read `r`, write `w`, and execute `x` permissions for the owner type of **other**. This owner type consists of all other users on the system apart from the user and the group. When one of these characters is a hyphen `-` instead, that indicates that this permission is not granted for others.
 
-Permissions can be set using bit positions that determine the read `r`, write `w`, and execute `x` access on a file or directory. 
+Permissions can also be set using bit positions that determine the read `r`, write `w`, and execute `x` access on a file or directory. 
 
 
 | Binary | Octal | Permissions |
@@ -164,10 +164,7 @@ Permissions can be set using bit positions that determine the read `r`, write `w
 | 110 | 6 (4+2+0) | rw- |
 | 111 | 7 (4+2+1) | rwx |
 
-For example:  
-
-    Bit position of 111 = 7 = `rwx` while 101 = 7 = `r-x`
-
+</br></br>
 The `mkdir` command allows us to create a new directory. In Figure 10, the command `mkdir tmp` will create a new directory named **tmp**.
 
 The command `ls -ld tmp` will display details of tmp directory's file type, permissions, etc. In this case, it is `drwxrwxr-x` showing that tmp directory possesses the following attributes:
@@ -175,15 +172,15 @@ The command `ls -ld tmp` will display details of tmp directory's file type, perm
 `d` = directory  
 `rwx` = permissions to read, write, and execute for the user  
 `rwx` = permissions to read, write, and execute for the group  
-`r-x` = permissions to read and execute but not write for others  
+`r-x` = permissions to read and execute but not write for other  
 
 The **principle of least privilege** is the concept of granting only the minimal access and authorization required to complete a task or function. In other words, users should not have privileges that are beyond what is necessary. Not adhering to this principle of least privilege can create security risks.
 
-The `chmod`  command facilitates the management of this authorization. The `chmod` command changes the permissions on files and directories.
+The `chmod` command facilitates the management of this authorization. It allows the modification of the read `r`, write `w`, and execute `x` permissions (access rights) of files and directories. 
 
-In Figure 10, the command `chmod 700 tmp` will change the permissions to disable read, write, and execute access for group and others, while retaining full permissions access for the user.
+In Figure 10, the command `chmod 700 tmp` will change the permissions to disable read, write, and execute access for group and other, while retaining full permissions access for the user.
 
-The next command `chmod 755 tmp` will change the existing permissions to enable read and execute access for group and others, and retain full permissions access for the user. As shown in Figure 10, the permission for the directory tmp is now `drwxr-xr-x`.
+The next command `chmod 755 tmp` will change the existing permissions to enable read and execute access for group and other, and retain full permissions access for the user. As shown in Figure 10, the permission for the directory tmp is now `drwxr-xr-x`.
 
 Figure 10 Usage of `mkdir` and `chmod` commands and permission assignment
 ![10](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2010%20Usage%20of%20mkdir%20and%20chmod%20commands%20and%20permission%20assignment.png)
