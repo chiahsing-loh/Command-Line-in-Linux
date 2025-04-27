@@ -78,8 +78,10 @@ In Figure 4, we are at the home directory `/home/coder`, if we want to display d
 
 To list details regarding the Desktop directory itself, but not its contents, we will use the command `ls -ld Desktop`. This will only display details of the Desktop directory's file type, permissions, ownership, etc. An alternative command `ls -l -d Desktop` will produce the same outcome.
 
-Figure 4 Using commands `ls -l` directory name vs `ls -ld` directory name
 
+Figure 4 Using commands `ls -l` directory name vs `ls -ld` directory name
+![4](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%204%20Using%20commands%20ls%20-l%20directory%20name%20vs%20ls%20-ld%20directory%20name.png)
+</br></br>
 
 
 
