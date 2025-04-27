@@ -83,8 +83,9 @@ Figure 4 Using commands `ls -l` directory name vs `ls -ld` directory name
 ![4](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%204%20Using%20commands%20ls%20-l%20directory%20name%20vs%20ls%20-ld%20directory%20name.png)
 </br></br>
 
-There are hidden files in a directory that can't be displayed using the normal `ls` command. The filename of a hidden file is prefix with a `.` and we will need to use `ls -al` command to view all the hidden files as shown in figure 5 below.
+There are hidden files in a directory that can't be displayed using the normal `ls` command. The filename of a hidden file is prefix with a `.` and we will need to use `ls -al` command to view all the hidden files as shown in Figure 5 below.
 
 Figure 5 Using `ls -al` command to display hidden files
-
+![5](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%205%20Using%20ls%20-al%20command%20to%20display%20hidden%20files.png)
+</br></br>
 
