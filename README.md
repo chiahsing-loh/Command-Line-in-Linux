@@ -264,6 +264,9 @@ Instead of leaving these permission denied errors to clutter up our screen, we c
 In essence, the command searches for files named "cat" and silences any errors encountered during the search, as shown in Figure 19.
 
 Figure 19 Using `find` command to filter out lines of error messages
+![19](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2019%20Using%20find%20command%20to%20filter%20out%20lines%20of%20error%20messages.png)
+</br></br>
+
 
 
 
