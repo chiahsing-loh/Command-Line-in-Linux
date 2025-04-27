@@ -151,14 +151,22 @@ The 5th-7th characters indicate the read `r`, write `w`, and execute `x` permiss
 The 8th-10th characters indicate the read `r`, write `w`, and execute `x` permissions for the owner type of **other**. This owner type consists of all other users on the system apart from the user and the group. When one of these characters is a hyphen `-` instead, that indicates that this permission is not granted for others.
 
 Permissions can be set using bit positions that determine the read `r`, write `w`, and execute `x` access on a file or directory. 
-For example:
-
-Bit position of 111 = 7 = `rwx` while 101 = 7 = `r-x`
 
 
+| Binary | Octal | Permissions |
+|--------|-------|-------------|
+| 000 | 0 (0+0+0) | --- |
+| 001 | 1 (0+0+1) | --x |
+| 010 | 2 (0+2+0) | -w- |
+| 011 | 3 (0+2+1) | -wx |
+| 100 | 4 (4+0+0) | r-- |
+| 101 | 5 (4+0+1) | r-x |
+| 110 | 6 (4+2+0) | rw- |
+| 111 | 7 (4+2+1) | rwx |
 
+For example:  
 
-
+    Bit position of 111 = 7 = `rwx` while 101 = 7 = `r-x`
 
 The `mkdir` command allows us to create a new directory. In Figure 10, the command `mkdir tmp` will create a new directory named **tmp**.
 
