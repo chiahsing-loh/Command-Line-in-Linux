@@ -198,7 +198,7 @@ Figure 11 Using `touch` and `rm` commands
 ![11](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2011%20Using%20touch%20and%20rm%20commands.png)
 </br></br>
 
-To copy a file **Vocabulary_list.csv** residing in the Desktop directory to the current tmp directory, the command 
+To copy a file **Vocabulary_list.csv** residing in the Desktop directory to the current tmp directory, the command  
 `cp ../Desktop/Vocabulary_list.csv .` is used, as shown in Figure 12.
 
 Figure 12 Using `cp` command
