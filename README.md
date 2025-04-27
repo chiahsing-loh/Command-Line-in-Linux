@@ -241,7 +241,15 @@ The option `-r` (or `--recursive`) tells `grep` to search _recursively_ through 
 The  wildcard `*` means "all files and directories in the current working directory." It instructs `grep` to search through every file and folder available.
 
 Figure 16 Using `grep` to search for a pattern across all directories and files
+![16](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2016%20Using%20grep%20to%20search%20for%20a%20pattern%20%20across%20all%20directories%20and%20files.png)
+</br></br>
 
+How can we find a downloaded file that we can't remember where we had placed it?  
+The `find` command will be helpful in locating the file as it starts in the given directory and recursively searches for the file name through the directories. In Figure 17, we use the command `find . -name Vocabulary_list.csv` to find where we have stored the file. In this case, the command displays the pathway to find it at `/home/Desktop/`.                                                                                                                                                                                                                                                                        
+
+
+
+Figure 17 Using the `find` command
 
 
 
