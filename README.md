@@ -100,6 +100,11 @@ In Figure 6, from our home directory at `/home/coder`, we will use the command `
 To get to the example directory, which resides within the Desktop directory, we will use the command `cd example` from our existing location at `/home/coder/Desktop`. Using the command `pwd`, which displays `/home/coder/Desktop/example` as its absolute path, we can confirm that we have navigated to the example directory.
 
 Figure 6 Using `cd` command to change directory
+![6](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%206%20Using%20cd%20command%20to%20change%20directory.png)
+</br></br>
 
+To return to our home directory from the current location of `/home/coder/Desktop/example`, we can use the `cd` command with the home environment variable `$HOME` as shown in Figure 7 below.
+
+Figure 7 Using `cd` command with home environment variable
 
 
