@@ -198,10 +198,16 @@ Figure 11 Using `touch` and `rm` commands
 ![11](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2011%20Using%20touch%20and%20rm%20commands.png)
 </br></br>
 
-To copy a **file Vocabulary_list.csv** residing in the Desktop directory to the current tmp directory, the command `cp ../Desktop/Vocabulary_list.csv .` is used, as shown in Figure 12.
+To copy a file **Vocabulary_list.csv** residing in the Desktop directory to the current tmp directory, the command 
+`cp ../Desktop/Vocabulary_list.csv .` is used, as shown in Figure 12.
 
-Figure 12 Using cp command
+Figure 12 Using `cp` command
+![12](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2012%20Using%20cp%20command.png)
+</br></br>
 
+Next, in Figure 13, we will navigate back to the home directory and use the command `rm temp/*` to remove all the contents residing in tmp directory. Performing a command `ls -l tmp` will confirm that the tmp directory is empty. Finally, to remove the empty tmp directory, the command `rmdir tmp` is used.
+
+Figure 13 Using `rm` and `rmdir` commands
 
 
 
