@@ -189,3 +189,18 @@ Figure 10 Usage of `mkdir` and `chmod` commands and permission assignment
 ![10](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2010%20Usage%20of%20mkdir%20and%20chmod%20commands%20and%20permission%20assignment.png)
 </br></br>
 
+In Figure 11, we will use the command `cd tmp` to navigate to the tmp directory, which is empty. In this directory, we will create a new file named test using the command `touch test`.
+
+To remove the file test from tmp directory, the command `rm test` is used.  The subsequent command `ls -l`  verified that the file test has been removed successfully.
+
+
+Figure 11 Using `touch` and `rm` commands
+![image](https://github.com/user-attachments/assets/77b1206c-0a78-47ba-9a15-f75b9170fe9b)
+
+
+
+
+
+
+
+
