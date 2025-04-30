@@ -51,7 +51,7 @@ In Linux, a **shell** is a command-line interpreter that acts as an interface be
 
 The `echo` command is used to print whatever follows it to the screen. `$` means content of the **shell**. The command `echo $SHELL` will print out the **SHELL** environment variable. In this case, we are using `/bin/bash` as shown in Figure 1.
 </br></br>
-Figure 1 Using `echo` and `pwd`commands
+Figure 1 Using `echo` and `pwd`commands  
 ![1](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%201%20Usage%20of%20commands%20-%20echo%20and%20pwd.png)
 </br></br>
 In Figure 1, the `pwd` command will display the current directory we are in. Directories are similar to folders in Windows File Explorer. In this case, the home directory is `/home/coder`.
@@ -87,7 +87,7 @@ Figure 4 Using commands `ls -l` directory name vs `ls -ld` directory name
 
 There are hidden files in a directory that can't be displayed using the normal `ls` command. The filename of a hidden file is prefix with a `.` and we will need to use `ls -al` command to view all the hidden files as shown in Figure 5 below.
 
-Figure 5 Using `ls -al` command to display hidden files
+Figure 5 Using `ls -al` command to display hidden files  
 ![5](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%205%20Using%20ls%20-al%20command%20to%20display%20hidden%20files.png)
 </br></br></br>
 
@@ -99,13 +99,13 @@ In Figure 6, from our home directory at `/home/coder`, we will use the command `
 
 To get to the example directory, which resides within the Desktop directory, we will use the command `cd example` from our existing location at `/home/coder/Desktop`. Using the command `pwd`, which displays `/home/coder/Desktop/example` as its <ins>absolute path</ins>, we can confirm that we have navigated to the example directory.
 
-Figure 6 Using `cd` command to change directory
+Figure 6 Using `cd` command to change directory  
 ![6](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%206%20Using%20cd%20command%20to%20change%20directory.png)
 </br></br>
 
 To return to our home directory from the current location of `/home/coder/Desktop/example`, we can use the `cd` command with the home environment variable `$HOME` as shown in Figure 7 below.
 
-Figure 7 Using `cd` command with home environment variable
+Figure 7 Using `cd` command with home environment variable  
 ![7](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%207%20Using%20cd%20command%20with%20home%20environment%20variable.png)
 </br></br>
 
@@ -116,7 +116,7 @@ Do note that regardless of which working directory you are at, the `..` always r
 In contrast, a single `.` represents the current working directory. As demonstrated in Figure 8, using a `cd .` command will not change our current working directory. 
 
 
-Figure 8 Using `cd ..`  and `cd .` commands
+Figure 8 Using `cd ..`  and `cd .` commands  
 ![8](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%208%20Using%20cd%20..%20%20and%20cd%20.%20command.png)
 </br></br>
 
@@ -124,7 +124,7 @@ To  quickly return to the home directory from wherever the user is currently at,
 
 This `cd` command shares the same functionality as the command `cd $HOME`.
 
-Figure 9 Using `cd` command with no arguments 
+Figure 9 Using `cd` command with no arguments  
 ![9](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%209%20Using%20cd%20command%20with%20no%20arguments.png)
 </br></br></br>
 
@@ -182,7 +182,7 @@ In Figure 10, the command `chmod 700 tmp` will change the permissions to disable
 
 The next command `chmod 755 tmp` will change the existing permissions to enable read and execute access for group and other, and retain full permissions access for the user. As shown in Figure 10, the permission for the directory tmp is now `drwxr-xr-x`.
 
-Figure 10 Usage of `mkdir` and `chmod` commands and permission assignment
+Figure 10 Usage of `mkdir` and `chmod` commands and permission assignment  
 ![10](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2010%20Usage%20of%20mkdir%20and%20chmod%20commands%20and%20permission%20assignment.png)
 </br></br>
 
@@ -191,20 +191,20 @@ In Figure 11, we will use the command `cd tmp` to navigate to the tmp directory,
 To remove the file **test** from tmp directory, the command `rm test` is used.  The subsequent command `ls -l`  verified that the file **test** has been removed successfully.
 
 
-Figure 11 Using `touch` and `rm` commands
+Figure 11 Using `touch` and `rm` commands  
 ![11](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2011%20Using%20touch%20and%20rm%20commands.png)
 </br></br>
 
 To copy a file **Vocabulary_list.csv** residing in the Desktop directory to the current tmp directory, the command  
 `cp ../Desktop/Vocabulary_list.csv .` is used, as shown in Figure 12.
 
-Figure 12 Using `cp` command
+Figure 12 Using `cp` command  
 ![12](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2012%20Using%20cp%20command.png)
 </br></br>
 
 Next, in Figure 13, we will navigate back to the home directory and use the command `rm temp/*` to remove all the contents residing in tmp directory. Performing a command `ls -l tmp` will confirm that the tmp directory is empty. Finally, to remove the empty tmp directory, the command `rmdir tmp` is used.
 
-Figure 13 Using `rm` and `rmdir` commands
+Figure 13 Using `rm` and `rmdir` commands  
 ![13](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2013%20Using%20rm%20and%20rmdir%20commands.png)
 </br></br>
 
@@ -214,7 +214,7 @@ The `-r` option, aka **recursive deletion**, allows `rm` to delete directories a
 
 The `-f` option, aka **force deletion**, forces the removal of files without prompting for confirmation, even if the files are write-protected.
 
-Figure 14 Using `rm -rf` command
+Figure 14 Using `rm -rf` command  
 ![14](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2014%20Using%20rm%20-rf%20command.png)
 </br></br></br>
 
@@ -227,7 +227,7 @@ In Figure 15, to search for the text 'man' in a file, we use the command `grep m
 Conversely, to search for text that does not have the character 'a', we are going to use the command 
 `grep -v a Vocabulary_list.csv`, the option `-v` will select non-matching patterns, in this case anything that does not contain the character 'a'. The outcome is shown in Figure 15.
 
-Figure 15 Using `grep` command to search text in a file
+Figure 15 Using `grep` command to search text in a file  
 ![15](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2015%20Using%20grep%20command%20to%20search%20text%20in%20a%20file.png)
 </br></br>
 
@@ -237,20 +237,20 @@ The option `-r` (or `--recursive`) tells `grep` to search _recursively_ through 
 
 The  wildcard `*` means "all files and directories in the current working directory." It instructs `grep` to search through every file and folder available.
 
-Figure 16 Using `grep` to search for a pattern across all directories and files
+Figure 16 Using `grep` to search for a pattern across all directories and files  
 ![16](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2016%20Using%20grep%20to%20search%20for%20a%20pattern%20%20across%20all%20directories%20and%20files.png)
 </br></br>
 
 How can we find a downloaded file that we can't remember where we had placed it?  
 The `find` command will be helpful in locating the file as it starts in the given directory and recursively searches for the file name through the directories. In Figure 17, we use the command `find . -name Vocabulary_list.csv` to find where we have stored the file. In this case, the command displays the pathway to find it at `/home/Desktop/`.                                                                                                                                                                                                                                                                        
 
-Figure 17 Using the `find` command
+Figure 17 Using the `find` command  
 ![17](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2017%20Using%20the%20find%20command.png)
 </br></br>
 
 Now, let's search for the `cat` command in the root directory using the command `find / -name cat`. However, this command generated too many lines of permission denied errors, making it difficult to find the `cat` command we wanted, as displayed in Figure 18.
 
-Figure 18 Using `find` command to search for `cat` command at root directory
+Figure 18 Using `find` command to search for `cat` command at root directory  
 ![18](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2018%20Using%20find%20command%20to%20search%20for%20%20cat%20command%20at%20root%20directory.png)
 </br></br>
 
@@ -260,13 +260,13 @@ To avoid these permission denied errors cluttering up our screen, we can use the
 
 In essence, the command `find / -name cat 2>/dev/null` searches for the "cat" command and silences any errors encountered during the search. The result `/usr/bin/cat` is found and displayed without clutter as shown in Figure 19.
 
-Figure 19 Using `find` command to filter out lines of error messages
+Figure 19 Using `find` command to filter out lines of error messages  
 ![19](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2019%20Using%20find%20command%20to%20filter%20out%20lines%20of%20error%20messages.png)
 </br></br>
 
 Lastly, we can use the command `cat Desktop/Vocabulary_list.csv` to display all the contents of the file Vocabulary_list.csv as shown in Figure 20.
 
-Figure 20 Using the `cat` command to display file contents
+Figure 20 Using the `cat` command to display file contents  
 ![20](https://github.com/chiahsing-loh/Command-Line-in-Linux/blob/main/Images/Figure%2020%20Using%20the%20cat%20command%20to%20display%20file%20contents.png)
 </br></br>
 
